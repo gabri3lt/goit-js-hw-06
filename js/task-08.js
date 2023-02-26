@@ -11,7 +11,7 @@ function checkSubmit(event) {
     return alert("Please fill in all the fields!");
   } else {
     inputUser = { email: email.value, password: password.value };
-    console.log(userData);
+    console.log(inputUser);
     alert("Email and Password saved!");
     return form.reset();
   }
